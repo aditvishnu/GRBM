@@ -114,7 +114,7 @@ def parse_args():
     parser.add_argument(
         "--config",
         type=str,
-        default="fig34/config/fashionmnist.json",
+        default="config/fashionmnist.json",
         help="Path to config file",
     )
     parser.add_argument(
