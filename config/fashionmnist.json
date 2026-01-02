@@ -3,7 +3,7 @@
     "cuda": true,
     "model": "GRBM",
     "batch_size": 512,
-    "epochs": 3000,
+    "epochs": 10000,
     "lr": 0.01,
     "clip_norm": 10.0,
     "wd": 0.0,
@@ -16,7 +16,7 @@
     "Langevin_eta": 20.0,
     "Langevin_adjust_warmup_epoch": 1000,
     "Langevin_adjust_step": 100,
-    "inference_method": "Gibbs-Langevin",
+    "inference_method": "Gibbs",
     "sampling_batch_size": 100,
     "sampling_steps": 100,
     "sampling_gap": 5,
@@ -32,5 +32,5 @@
     ],
     "log_interval": 10,
     "save_interval": 100,
-    "hidden_size": 10000    
+    "hidden_size": 10000
 }
